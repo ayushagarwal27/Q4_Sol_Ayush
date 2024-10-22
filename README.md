@@ -12,11 +12,21 @@ Here are some of the web3 projects I build in my web3 journey and things I learn
 
 ###  Voting dApp (devnet)
 
-    An Application where users can create new poll, 
-    add candidates, and vote by interacting via smart contract
+    An Application where users can create new poll, add candidates, 
+    and vote by interacting via smart contract
 
  - Tech Stack : Anchor, Rust
  - [Repo Link](https://github.com/ayushagarwal27/solana_voting_dapp/tree/main/anchor/programs/voting)
  - [Explorer Link](https://explorer.solana.com/address/3DyHcuKbC9swQYJS6zDSRYTwDFoVaeEfkqgohS2GKg8M?cluster=devnet)
 
+<hr/>
 
+###  Vault Smart Contract
+
+- A smart contract developed with Anchor Rust framework
+- User can open a vault, which will be system account unique to user
+- User can deposit amount into vault
+- User can withdraw amount from vault
+
+Tech Stack : Anchor, Rust
+- [Repo Link](https://github.com/ayushagarwal27/anchor_vault_solana)
