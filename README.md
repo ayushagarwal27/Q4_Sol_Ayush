@@ -2,7 +2,7 @@
 
 Hey 👋 there, Welcome 🙂
 
-Ayush here, a software developer with over 3+ years of experience in building full stack products using React, Next.js, Node, and Express.
+Ayush here, a software developer building full stack products using React, Next.js, Node, and Express.
 
 
 Here are some of the web3 projects I build in my web3 journey and things I learned along the way : -
