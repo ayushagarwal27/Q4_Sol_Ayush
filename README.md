@@ -9,18 +9,10 @@ Here are some of the web3 projects I build in my web3 journey and things I learn
 
 
 ## Program (Solana)
-
-###  Voting dApp (devnet)
-
-An Application where users can create new poll, add candidates, and vote by interacting via smart contract
-
- - Tech Stack : Anchor, Rust
- - [Repo Link](https://github.com/ayushagarwal27/solana_voting_dapp/tree/main/anchor/programs/voting)
- - [Explorer Link](https://explorer.solana.com/address/3DyHcuKbC9swQYJS6zDSRYTwDFoVaeEfkqgohS2GKg8M?cluster=devnet)
-
 <hr/>
 
-###  Vault Program
+<details close>
+<summary>  Vault Program</summary>
 
 - User can open a vault, which will be system account unique to user
 - User can deposit amount into vault
@@ -29,12 +21,17 @@ An Application where users can create new poll, add candidates, and vote by inte
 Tech Stack : Anchor, Rust
 - [Repo Link](https://github.com/ayushagarwal27/anchor_vault_solana)
 
+</details>
+
+
+
 <hr/>
 
-###  Escrow Program
+<details close>
+<summary>  Escrow Program</summary>
 
 #### Make Instruction
-- Maker initializes escrow PDA, 
+- Maker initializes escrow PDA,
 - Maker creates vault PDA, whose authority lies with escrow
 - Escrow contains information of token mint addresses and amount that needs to be exchanged
 
@@ -51,10 +48,12 @@ Tech Stack : Anchor, Rust
 Tech Stack : Anchor, Rust
 - [Repo Link](https://github.com/ayushagarwal27/anchor_escrow_sol/tree/main)
 
+</details>
 
 <hr/>
 
-###  Nft Staking Program
+<details close>
+<summary> NFT Staking Program</summary>
 
 #### Initialize User Instruction
 - Creates user account PDA
@@ -78,12 +77,12 @@ Tech Stack : Anchor, Rust
   - owner: owner of nft
   - mint: mint address of nft
   - stake_at: Unix time stamp when nft was staked
-- Delegate Authority of Mint ATA to Stake Account 
+- Delegate Authority of Mint ATA to Stake Account
 - Freezes Nft
 - Increment user account staked nft by one
 
 #### UnStake Instruction
-- Checks elapsed time 
+- Checks elapsed time
 - Increases the user reward points
 - Unfreezes NFT
 - Revokes delegation to Stake Account
@@ -96,3 +95,4 @@ Tech Stack : Anchor, Rust
 
 Tech Stack : Anchor, Rust
 - [Repo Link](https://github.com/ayushagarwal27/anchor-nft-staking-program/tree/main)
+</details>
