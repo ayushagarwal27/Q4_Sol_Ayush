@@ -1,0 +1,9 @@
+[submodule "anchor_vault_solana"]
+	path = anchor_vault_solana
+	url = https://github.com/ayushagarwal27/anchor_vault_solana
+[submodule "anchor_escrow_sol"]
+	path = anchor_escrow_sol
+	url = https://github.com/ayushagarwal27/anchor_escrow_sol
+[submodule "anchor-nft-staking-program"]
+	path = anchor-nft-staking-program
+	url = https://github.com/ayushagarwal27/anchor-nft-staking-program

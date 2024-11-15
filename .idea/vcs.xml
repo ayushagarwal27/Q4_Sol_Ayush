@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anchor-nft-staking-program" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anchor_escrow_sol" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anchor_vault_solana" vcs="Git" />
   </component>
 </project>
