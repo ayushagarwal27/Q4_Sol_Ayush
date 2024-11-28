@@ -7,3 +7,6 @@
 [submodule "anchor-nft-staking-program"]
 	path = anchor-nft-staking-program
 	url = https://github.com/ayushagarwal27/anchor-nft-staking-program
+[submodule "Solflix_Anchor_Rust"]
+	path = Solflix_Anchor_Rust
+	url = https://github.com/ayushagarwal27/Solflix_Anchor_Rust
