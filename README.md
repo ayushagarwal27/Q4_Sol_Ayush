@@ -96,3 +96,16 @@ Tech Stack : Anchor, Rust
 Tech Stack : Anchor, Rust
 - [Repo Link](https://github.com/ayushagarwal27/anchor-nft-staking-program/tree/main)
 </details>
+
+## SolFlix  (Capstone Project)
+
+- SolFlix is a video rental dApp, where creator have autonomy to share videos anonymously, decide on validity of the video and price they would like to charge per video. (paid is SOL)
+
+
+- Consumer have autonomy to have access to video in anonymous fashion and rent a video by paying direct to creator.
+
+
+- This idea can be extended to share files and other media formats, without intervention of any intermediary.
+
+
+- [Program Repo Link](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
