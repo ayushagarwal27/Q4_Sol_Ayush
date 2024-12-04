@@ -98,6 +98,10 @@ Tech Stack : Anchor, Rust
 </details>
 
 ## SolFlix  (Capstone Project)
+<div align="">
+ <img src="./img.png" alt="Logo" width="800" style="margin-left: auto; margin-right: auto">
+</div>
+
 > On-Chain Video Rental App
 
 ### Project Details
