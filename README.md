@@ -8,6 +8,32 @@ Ayush here, a software developer building full stack products using React, Next.
 Here are some of the web3 projects I build in my web3 journey and things I learned along the way : -
 
 
+## SolFlix  (Capstone Project)
+<div align="">
+ <img src="./img.png" alt="Logo" width="800" style="margin-left: auto; margin-right: auto">
+</div>
+
+> On-Chain Video Rental App
+
+### Project Details
+
+- **Website**: [Solflix](https://solflix-v.vercel.app/)
+- **Devnet Address**: [BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47](https://explorer.solana.com/address/BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47?cluster=devnet)
+- **Program Repository**: [Program](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
+- **Frontend Repository**: [Frontend](https://github.com/ayushagarwal27/solflix-frontend)
+
+
+### Project Description
+- SolFlix is a video rental dApp, where creator have autonomy to share videos anonymously, decide on validity of the video and price they would like to charge per video. (paid is SOL)
+
+
+- Consumer have autonomy to have access to video in anonymous fashion and rent a video by paying direct to creator.
+
+
+- This idea can be extended to share files and other media formats, without intervention of any intermediary.
+
+---
+
 ## Program (Solana)
 <hr/>
 
@@ -97,26 +123,5 @@ Tech Stack : Anchor, Rust
 - [Repo Link](https://github.com/ayushagarwal27/anchor-nft-staking-program/tree/main)
 </details>
 
-## SolFlix  (Capstone Project)
-<div align="">
- <img src="./img.png" alt="Logo" width="800" style="margin-left: auto; margin-right: auto">
-</div>
-
-> On-Chain Video Rental App
-
-### Project Details
-
-- **Website**: [Solflix](https://solflix-v.vercel.app/)  
-- **Devnet Address**: [BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47](https://explorer.solana.com/address/BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47?cluster=devnet)
-- **Program Repository**: [Program](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
-- **Frontend Repository**: [Frontend](https://github.com/ayushagarwal27/solflix-frontend)
 ---
 
-### Project Description
-- SolFlix is a video rental dApp, where creator have autonomy to share videos anonymously, decide on validity of the video and price they would like to charge per video. (paid is SOL)
-
-
-- Consumer have autonomy to have access to video in anonymous fashion and rent a video by paying direct to creator.
-
-
-- This idea can be extended to share files and other media formats, without intervention of any intermediary.
