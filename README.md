@@ -98,7 +98,17 @@ Tech Stack : Anchor, Rust
 </details>
 
 ## SolFlix  (Capstone Project)
+> On-Chain Video Rental App
 
+### Project Details
+
+- **Website**: [Solflix](https://solflix-v.vercel.app/)  
+- **Devnet Address**: [BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47](https://explorer.solana.com/address/BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47?cluster=devnet)
+- **Program Repository**: [Program](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
+- **Frontend Repository**: [Frontend](https://github.com/ayushagarwal27/solflix-frontend)
+---
+
+### Project Description
 - SolFlix is a video rental dApp, where creator have autonomy to share videos anonymously, decide on validity of the video and price they would like to charge per video. (paid is SOL)
 
 
@@ -106,6 +116,3 @@ Tech Stack : Anchor, Rust
 
 
 - This idea can be extended to share files and other media formats, without intervention of any intermediary.
-
-
-- [Program Repo Link](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
