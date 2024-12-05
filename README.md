@@ -18,6 +18,7 @@ Here are some of the web3 projects I build in my web3 journey and things I learn
 ### Project Details
 
 - **Website**: [Solflix](https://solflix-v.vercel.app/)
+- **Pitch Deck**: [Slides](https://www.canva.com/design/DAGYDBsodR4/HPqWgCWfJQaox2bz4OmtlA/edit?utm_content=DAGYDBsodR4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Devnet Address**: [BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47](https://explorer.solana.com/address/BFpFTmDwDNygSW9iL1UErkpDGTDiJFcjZh73DJ1vRu47?cluster=devnet)
 - **Program Repository**: [Program](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
 - **Frontend Repository**: [Frontend](https://github.com/ayushagarwal27/solflix-frontend)

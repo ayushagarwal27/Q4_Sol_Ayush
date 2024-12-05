@@ -6,5 +6,6 @@
     <mapping directory="$PROJECT_DIR$/anchor-nft-staking-program" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/anchor_escrow_sol" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/anchor_vault_solana" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solflix-frontend" vcs="Git" />
   </component>
 </project>
