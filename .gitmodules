@@ -13,3 +13,6 @@
 [submodule "solflix-frontend"]
 	path = solflix-frontend
 	url = https://github.com/ayushagarwal27/solflix-frontend
+[submodule "anchor_marketplace"]
+	path = anchor_marketplace
+	url = https://github.com/ayushagarwal27/anchor_marketplace
