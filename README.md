@@ -126,3 +126,13 @@ Tech Stack : Anchor, Rust
 
 ---
 
+
+
+<details close>
+<summary> Marketplace Program</summary>
+
+Tech Stack : Anchor, Rust
+- [Repo Link](https://github.com/ayushagarwal27/anchor_marketplace)
+</details>
+
+---
