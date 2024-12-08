@@ -16,3 +16,6 @@
 [submodule "anchor_marketplace"]
 	path = anchor_marketplace
 	url = https://github.com/ayushagarwal27/anchor_marketplace
+[submodule "anchor_amm"]
+	path = anchor_amm
+	url = https://github.com/ayushagarwal27/anchor_amm

@@ -136,3 +136,12 @@ Tech Stack : Anchor, Rust
 </details>
 
 ---
+
+<details close>
+<summary> AMM Program</summary>
+
+Tech Stack : Anchor, Rust
+- [Repo Link](https://github.com/ayushagarwal27/anchor_amm)
+</details>
+
+---
