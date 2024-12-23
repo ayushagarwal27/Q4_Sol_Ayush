@@ -1,21 +1,15 @@
-[submodule "anchor_vault_solana"]
-	path = anchor_vault_solana
+[submodule "1.anchor_vault"]
+	path = 1.anchor_vault
 	url = https://github.com/ayushagarwal27/anchor_vault_solana
-[submodule "anchor_escrow_sol"]
-	path = anchor_escrow_sol
+[submodule "2.anchor_escrow"]
+	path = 2.anchor_escrow
 	url = https://github.com/ayushagarwal27/anchor_escrow_sol
-[submodule "anchor-nft-staking-program"]
-	path = anchor-nft-staking-program
+[submodule "3.anchor-nft-staking-program"]
+	path = 3.anchor-nft-staking-program
 	url = https://github.com/ayushagarwal27/anchor-nft-staking-program
-[submodule "Solflix_Anchor_Rust"]
-	path = Solflix_Anchor_Rust
-	url = https://github.com/ayushagarwal27/Solflix_Anchor_Rust
-[submodule "solflix-frontend"]
-	path = solflix-frontend
-	url = https://github.com/ayushagarwal27/solflix-frontend
-[submodule "anchor_marketplace"]
-	path = anchor_marketplace
+[submodule "4.anchor_marketplace"]
+	path = 4.anchor_marketplace
 	url = https://github.com/ayushagarwal27/anchor_marketplace
-[submodule "anchor_amm"]
-	path = anchor_amm
+[submodule "5.anchor_amm"]
+	path = 5.anchor_amm
 	url = https://github.com/ayushagarwal27/anchor_amm
