@@ -56,6 +56,9 @@ Tech Stack : Anchor, Rust
 
 <details close>
 <summary>  Escrow Program</summary>
+<br/>
+A Solana program for holding funds until a condition is met for achieving a trustless conditional transfer.
+
 
 #### Make Instruction
 - Maker initializes escrow PDA,
@@ -81,6 +84,9 @@ Tech Stack : Anchor, Rust
 
 <details close>
 <summary> NFT Staking Program</summary>
+<br/>
+
+A Solana program for staking an NFT from a specific collection, earning points, and minting rewards.
 
 #### Initialize User Instruction
 - Creates user account PDA
