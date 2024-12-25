@@ -4,11 +4,10 @@ Hey 👋 there, Welcome 🙂
 
 Ayush here, a software developer building full stack solana dApps using Anchor, Rust, React, Next.js, Node, Tailwind and Express.
 
-
 Here are some of the web3 projects I build in my web3 journey and things I learned along the way : -
 
+## SolFlix (Capstone Project)
 
-## SolFlix  (Capstone Project)
 <div align="">
  <img src="./img.png" alt="Logo" width="800" style="margin-left: auto; margin-right: auto">
 </div>
@@ -23,34 +22,35 @@ Here are some of the web3 projects I build in my web3 journey and things I learn
 - **Program Repository**: [Program](https://github.com/ayushagarwal27/Solflix_Anchor_Rust)
 - **Frontend Repository**: [Frontend](https://github.com/ayushagarwal27/solflix-frontend)
 
-
 ### Project Description
+
 - SolFlix is a video rental dApp, where creator have autonomy to share videos anonymously, decide on validity of the video and price they would like to charge per video. (paid is SOL)
 
-
 - Consumer have autonomy to have access to video in anonymous fashion and rent a video by paying direct to creator.
-
 
 - This idea can be extended to share files and other media formats, without intervention of any intermediary.
 
 ---
 
 ## Program (Solana)
+
 <hr/>
 
 <details close>
 <summary>  Vault Program</summary>
+<br/>
+
+A Solana program enabling users to create, deposit into, withdraw from, and close a user-specific account.
 
 - User can open a vault, which will be system account unique to user
 - User can deposit amount into vault
 - User can withdraw amount from vault
 
 Tech Stack : Anchor, Rust
+
 - [Repo Link](https://github.com/ayushagarwal27/anchor_vault_solana)
 
 </details>
-
-
 
 <hr/>
 
@@ -59,23 +59,25 @@ Tech Stack : Anchor, Rust
 <br/>
 A Solana program for holding funds until a condition is met for achieving a trustless conditional transfer.
 
-
 #### Make Instruction
+
 - Maker initializes escrow PDA,
 - Maker creates vault PDA, whose authority lies with escrow
 - Escrow contains information of token mint addresses and amount that needs to be exchanged
 
 #### Refund Instruction
+
 - Maker calls refund instruction for closing escrow and get a refund
 
 #### Take Instruction
+
 - Taker creates associated_token_account (ATA) for maker
 - Taker transfers tokens to maker ATA
 - Escrow transfers tokens from vault to taker ATA
 - Escrow PDA is closed
 
-
 Tech Stack : Anchor, Rust
+
 - [Repo Link](https://github.com/ayushagarwal27/anchor_escrow_sol/tree/main)
 
 </details>
@@ -89,12 +91,14 @@ Tech Stack : Anchor, Rust
 A Solana program for staking an NFT from a specific collection, earning points, and minting rewards.
 
 #### Initialize User Instruction
+
 - Creates user account PDA
-- User account contains 
+- User account contains
   - points: reward points
   - amounts_staked: number of nft staked
 
 #### Initialize Config Instruction
+
 - Creates Config PDA
 - Config PDA includes
   - points_per_stake: reward points per stake
@@ -105,6 +109,7 @@ A Solana program for staking an NFT from a specific collection, earning points, 
 - Only Admin can create config and reward_mint
 
 #### Stake Instruction
+
 - Creates Stake PDA
 - Stake PDA includes
   - owner: owner of nft
@@ -115,6 +120,7 @@ A Solana program for staking an NFT from a specific collection, earning points, 
 - Increment user account staked nft by one
 
 #### UnStake Instruction
+
 - Checks elapsed time
 - Increases the user reward points
 - Unfreezes NFT
@@ -122,22 +128,22 @@ A Solana program for staking an NFT from a specific collection, earning points, 
 - Decreases ft staked number by one
 
 #### Claim Instruction
+
 - Mint reward tokens to User Rewards ATA
 - Makes user reward points to zero
 
-
 Tech Stack : Anchor, Rust
+
 - [Repo Link](https://github.com/ayushagarwal27/anchor-nft-staking-program/tree/main)
 </details>
 
 ---
 
-
-
 <details close>
 <summary> Marketplace Program</summary>
 
 Tech Stack : Anchor, Rust
+
 - [Repo Link](https://github.com/ayushagarwal27/anchor_marketplace)
 </details>
 
@@ -147,6 +153,7 @@ Tech Stack : Anchor, Rust
 <summary> AMM Program</summary>
 
 Tech Stack : Anchor, Rust
+
 - [Repo Link](https://github.com/ayushagarwal27/anchor_amm)
 </details>
 
