@@ -149,7 +149,6 @@ A Solana program where :
 - maker can delist their listed NFT,
 - taker can purchase listed NFT
 
----
 
 ### State
 
@@ -178,7 +177,6 @@ pub struct Listing {
 }
 ```
 
----
 
 ### Instructions
 
