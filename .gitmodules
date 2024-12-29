@@ -13,3 +13,6 @@
 [submodule "5.anchor_amm"]
 	path = 5.anchor_amm
 	url = https://github.com/ayushagarwal27/anchor_amm
+[submodule "ai-agent-solana"]
+	path = ai-agent-solana
+	url = https://github.com/ayushagarwal27/ai-agent-solana
