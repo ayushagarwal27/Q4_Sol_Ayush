@@ -248,7 +248,7 @@ pub struct Config {
 
 An AI agent that provides token and swap information. Just provide mint address of tokens, amount and slippage
 
-- Bot is active between 10:30 am - 12:30 am (EST)
+- Bot is active between 10:30 am - 12:30 pm (EST)
 - Discord server [link](https://discord.gg/vQy9azja)
 
 Tech Stack : Eliza framework, Jupiter APIs
