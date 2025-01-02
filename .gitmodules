@@ -1,17 +1,17 @@
-[submodule "1.anchor_vault"]
-	path = 1.anchor_vault
+[submodule "1.vault"]
+	path = 1.vault
 	url = https://github.com/ayushagarwal27/anchor_vault_solana
-[submodule "2.anchor_escrow"]
-	path = 2.anchor_escrow
+[submodule "2.escrow"]
+	path = 2.escrow
 	url = https://github.com/ayushagarwal27/anchor_escrow_sol
-[submodule "3.anchor-nft-staking-program"]
-	path = 3.anchor-nft-staking-program
+[submodule "3.nft-staking-program"]
+	path = 3.nft-staking-program
 	url = https://github.com/ayushagarwal27/anchor-nft-staking-program
-[submodule "4.anchor_marketplace"]
-	path = 4.anchor_marketplace
+[submodule "4.marketplace"]
+	path = 4.marketplace
 	url = https://github.com/ayushagarwal27/anchor_marketplace
-[submodule "5.anchor_amm"]
-	path = 5.anchor_amm
+[submodule "5.amm"]
+	path = 5.amm
 	url = https://github.com/ayushagarwal27/anchor_amm
 [submodule "ai-agent-solana"]
 	path = ai-agent-solana
