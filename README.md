@@ -142,13 +142,12 @@ Tech Stack : Anchor, Rust
 <details close>
 <summary> Marketplace Program</summary>
 <br/>
-A Solana program where : 
+A Solana program where :
 
 - admin can initialize marketplace
-- maker can list their NFT, 
+- maker can list their NFT,
 - maker can delist their listed NFT,
 - taker can purchase listed NFT
-
 
 ### State
 
@@ -176,7 +175,6 @@ pub struct Listing {
     pub bump: u8,
 }
 ```
-
 
 ### Instructions
 
@@ -222,17 +220,17 @@ pub struct Config {
 }
 ```
 
-
 ### Instructions
 
-- Initialize: Initialize liquidity mint, vaults for liquidity tokens, and lp pool config 
-- Deposit: 
+- Initialize: Initialize liquidity mint, vaults for liquidity tokens, and lp pool config
+- Deposit:
   - deposit liquidity tokens from user-ata to liquidity tokens-ata
   - mint lp tokens to user-lp-ata
 - Swap:
-  - deposit x  token from user-ata-x to lp-vault-ata-x
+  - deposit x token from user-ata-x to lp-vault-ata-x
   - withdraw y from lp-vault-ata-y to user-ata-y
 - Withdraw:
+
   - withdraw tokens from lp pool vault to provider-ata
   - burn lp tokens owned by provider
 
@@ -240,6 +238,35 @@ pub struct Config {
 </details>
 
 ---
+
+## DePiN (Capstone)
+
+<details close>
+<summary>Terrapulse</summary>
+
+#### Project Highlights
+
+- **Pitch Deck**: [Slides](https://www.canva.com/design/DAG18ZEog-s/RFQ8r3C1jb5x7OyA_eXG-A/edit?utm_content=DAG18ZEog-s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Devnet Address**: [EeLVcxJ4sG9Gj5bqsKbUG25KMsGrLSWcauKQwBUpCWRh](https://explorer.solana.com/address/EeLVcxJ4sG9Gj5bqsKbUG25KMsGrLSWcauKQwBUpCWRh?cluster=devnet)
+- **Solana Program Repository**: [Program](https://github.com/solana-turbin3/TerraPulse-DePIN/tree/main/anchor)
+- **Embedded Repository(Esp32)**: [Embedded](https://github.com/solana-turbin3/TerraPulse-DePIN/tree/main/esp32)
+- **Frontend Repository**: [Frontend](https://github.com/solana-turbin3/TerraPulse-DePIN/tree/main/src)
+- **Backend Repository**: [Backend](https://github.com/solana-turbin3/TerraPulse-DePIN/tree/main/src/app/api)
+
+#### Project Description
+
+TerraPulse is an on-chain-enabled network for environmental monitoring. It allows operators to host ESP32-based devices that collect environmental data (temperature, humidity, etc.) and post validated readings to the backend. Users earn on-chain rewards for validated contributions; rewards are synchronized on-chain using an Anchor program.
+
+This repo implements three components:
+
+1. Embedded (ESP32) — sensor code (DHT11), scheduling, WiFi provisioning via WiFiManager, and POST to backend API.
+2. Frontend & Backend — Next.js app with pages for authentication, dashboard, claim flow, and server API routes to accept device data, manage devices/sensors, and sync rewards to the blockchain.
+3. Anchor Program — simple reward accounting: initialize, initialize_user (per-user config), update_points (admin-driven), and claim (mint reward tokens to users).
+
+</details>
+
+---
+
 ## Ai-Agent / Bots
 
 <details close>
