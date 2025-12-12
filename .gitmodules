@@ -16,3 +16,6 @@
 [submodule "ai-agent-solana"]
 	path = ai-agent-solana
 	url = https://github.com/ayushagarwal27/ai-agent-solana
+[submodule "7.TerraPulse-DePIN"]
+	path = 7.TerraPulse-DePIN
+	url = https://github.com/ayushagarwal27/TerraPulse-DePIN
